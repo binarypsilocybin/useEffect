@@ -22,6 +22,7 @@ function App() {
   };
 
   const logoutHandler = () => {
+    logoutHandler.removeItem("isLoggedIn");
     setIsLoggedIn(false);
   };
 
